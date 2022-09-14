@@ -419,8 +419,10 @@ img {
 }
 .footer-container {
   display: flex;
-  align-items: baseline;
-  gap: 70px;
+  align-items: baseline;  
+}
+.container-address-footer {
+  margin-right: 70px;
 }
 .footer-list {
   display: flex;
@@ -632,6 +634,9 @@ img {
 .modal-form-field {
   margin-bottom: 10px;
 }
+.modal-form-field-textarea {
+  margin-bottom: 20px;
+}
 .modal-form-field-desc {
   display: block;
   font-size: 12px;
@@ -690,6 +695,7 @@ img {
 .modal-form-check-field {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -746,6 +752,10 @@ img {
 
 /*===============<FOOTER-MODAL>===============*/
 
+.footer-modal {
+  margin-left: auto;
+}
+
 .footer-modal-form-title {
   font-weight: 700;
   font-size: 14px;
@@ -757,6 +767,7 @@ img {
 }
 .footer-modal-form {
   display: flex;
+  
 }
 .footer-modal-form-input {
   width: 358px;
@@ -778,6 +789,7 @@ img {
 .footer-modal-form-input:focus {
   outline: none;
   border-color: var(--accent-color);
+  
 }
 .footer-modal-form-submit {
   display: flex;
